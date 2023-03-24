@@ -1,0 +1,69 @@
+2023-02-10 20:34:40.101  INFO 7552 --- [main] tn.esprit.FilmProjectApplication         : Starting FilmProjectApplication using Java 11.0.17 on DESKTOP-M5BUO2F with PID 7552 (D:\ProjectsSpring2023\FilmProject\target\classes started by user in D:\ProjectsSpring2023\FilmProject)
+2023-02-10 20:34:40.103  INFO 7552 --- [main] tn.esprit.FilmProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-10 20:34:40.748  INFO 7552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-10 20:34:40.790  INFO 7552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+2023-02-10 20:34:41.176  INFO 7552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-02-10 20:34:41.182  INFO 7552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-10 20:34:41.183  INFO 7552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-02-10 20:34:41.269  INFO 7552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/film]   : Initializing Spring embedded WebApplicationContext
+2023-02-10 20:34:41.270  INFO 7552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1120 ms
+2023-02-10 20:34:41.404  INFO 7552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-10 20:34:41.442  INFO 7552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-10 20:34:41.525  INFO 7552 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-10 20:34:41.582  INFO 7552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-10 20:34:41.696  INFO 7552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-10 20:34:41.704  INFO 7552 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-10 20:34:42.514  INFO 7552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-10 20:34:42.521  INFO 7552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-10 20:34:42.835  WARN 7552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-10 20:34:43.361  INFO 7552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/film'
+2023-02-10 20:34:43.372  INFO 7552 --- [main] tn.esprit.FilmProjectApplication         : Started FilmProjectApplication in 3.58 seconds (JVM running for 4.25)
+2023-02-10 20:35:56.701  INFO 7552 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-10 20:35:56.705  INFO 7552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-10 20:35:56.717  INFO 7552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-10 20:36:00.807  INFO 26168 --- [main] tn.esprit.FilmProjectApplication         : Starting FilmProjectApplication using Java 11.0.17 on DESKTOP-M5BUO2F with PID 26168 (D:\ProjectsSpring2023\FilmProject\target\classes started by user in D:\ProjectsSpring2023\FilmProject)
+2023-02-10 20:36:00.811  INFO 26168 --- [main] tn.esprit.FilmProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-10 20:36:01.448  INFO 26168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-10 20:36:01.494  INFO 26168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+2023-02-10 20:36:01.860  INFO 26168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-02-10 20:36:01.867  INFO 26168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-10 20:36:01.867  INFO 26168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-02-10 20:36:01.963  INFO 26168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/film]   : Initializing Spring embedded WebApplicationContext
+2023-02-10 20:36:01.963  INFO 26168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1085 ms
+2023-02-10 20:36:02.108  INFO 26168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-10 20:36:02.138  INFO 26168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-10 20:36:02.229  INFO 26168 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-10 20:36:02.291  INFO 26168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-10 20:36:02.403  INFO 26168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-10 20:36:02.412  INFO 26168 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-10 20:36:03.123  INFO 26168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-10 20:36:03.132  INFO 26168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-10 20:36:03.451  WARN 26168 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-10 20:36:04.009  INFO 26168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/film'
+2023-02-10 20:36:04.022  INFO 26168 --- [main] tn.esprit.FilmProjectApplication         : Started FilmProjectApplication in 3.59 seconds (JVM running for 4.375)
+2023-02-10 20:36:31.541  INFO 26168 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-10 20:36:31.543  INFO 26168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-10 20:36:31.549  INFO 26168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-10 20:36:35.522  INFO 8736 --- [main] tn.esprit.FilmProjectApplication         : Starting FilmProjectApplication using Java 11.0.17 on DESKTOP-M5BUO2F with PID 8736 (D:\ProjectsSpring2023\FilmProject\target\classes started by user in D:\ProjectsSpring2023\FilmProject)
+2023-02-10 20:36:35.525  INFO 8736 --- [main] tn.esprit.FilmProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-10 20:36:36.207  INFO 8736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-10 20:36:36.261  INFO 8736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+2023-02-10 20:36:36.649  INFO 8736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-02-10 20:36:36.655  INFO 8736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-10 20:36:36.655  INFO 8736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-02-10 20:36:36.757  INFO 8736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/film]   : Initializing Spring embedded WebApplicationContext
+2023-02-10 20:36:36.757  INFO 8736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1170 ms
+2023-02-10 20:36:36.911  INFO 8736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-10 20:36:36.942  INFO 8736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-10 20:36:37.026  INFO 8736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-10 20:36:37.085  INFO 8736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-10 20:36:37.202  INFO 8736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-10 20:36:37.210  INFO 8736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-10 20:36:38.067  INFO 8736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-10 20:36:38.078  INFO 8736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-10 20:36:38.578  WARN 8736 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-10 20:36:39.326  INFO 8736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/film'
+2023-02-10 20:36:39.343  INFO 8736 --- [main] tn.esprit.FilmProjectApplication         : Started FilmProjectApplication in 4.159 seconds (JVM running for 4.848)
+2023-02-10 20:36:53.237  INFO 8736 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-10 20:36:53.239  INFO 8736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-10 20:36:53.245  INFO 8736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

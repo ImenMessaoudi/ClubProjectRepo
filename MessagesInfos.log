@@ -1,0 +1,23 @@
+2023-02-10 20:36:56.438  INFO 2720 --- [main] tn.esprit.FilmProjectApplication         : Starting FilmProjectApplication using Java 11.0.17 on DESKTOP-M5BUO2F with PID 2720 (D:\ProjectsSpring2023\FilmProject\target\classes started by user in D:\ProjectsSpring2023\FilmProject)
+2023-02-10 20:36:56.441  INFO 2720 --- [main] tn.esprit.FilmProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-10 20:36:57.076  INFO 2720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-10 20:36:57.123  INFO 2720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2023-02-10 20:36:57.517  INFO 2720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-02-10 20:36:57.525  INFO 2720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-10 20:36:57.525  INFO 2720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-02-10 20:36:57.617  INFO 2720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/film]   : Initializing Spring embedded WebApplicationContext
+2023-02-10 20:36:57.617  INFO 2720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1129 ms
+2023-02-10 20:36:57.777  INFO 2720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-10 20:36:57.808  INFO 2720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-10 20:36:57.899  INFO 2720 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-10 20:36:57.964  INFO 2720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-10 20:36:58.081  INFO 2720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-10 20:36:58.088  INFO 2720 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-10 20:36:58.804  INFO 2720 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-10 20:36:58.814  INFO 2720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-10 20:36:59.183  WARN 2720 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-10 20:36:59.725  INFO 2720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/film'
+2023-02-10 20:36:59.738  INFO 2720 --- [main] tn.esprit.FilmProjectApplication         : Started FilmProjectApplication in 3.597 seconds (JVM running for 4.258)
+2023-02-10 20:37:52.077  INFO 2720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-10 20:37:52.080  INFO 2720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-10 20:37:52.085  INFO 2720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
