@@ -14,7 +14,7 @@ pipeline {
             steps {
                 git branch: 'main',
                 credentialsId: 'Jenkins-GitHub',
-                url: 'https://github.com/ImenMessaoudi/SpringProjectCour.git'
+                url: 'https://github.com/ImenMessaoudi/ClubProjectRepo.git'
                
             }
         }
