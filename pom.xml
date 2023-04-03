@@ -13,8 +13,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>FilmProject</name>
     <description>FilmProject</description>
-    <properties>
-        <java.version>11</java.version>
+     <properties>
+             <maven-jar-plugin.version>3.0.1</maven-jar-plugin.version>      
+             <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -63,6 +64,11 @@
                     </excludes>
                 </configuration>
             </plugin>
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-clean-plugin</artifactId>
+                 <version>3.1.0</version>
+         </plugin>
         </plugins>
     </build>
 
